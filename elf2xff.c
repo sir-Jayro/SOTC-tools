@@ -9,7 +9,7 @@
 
 /******** WARNING ********
 	
-	This is still a WIP (work in progress)
+	This is still a WORK IN PROGRESS
 	Some thing still don't work properly
 	
 *************************/
@@ -17,10 +17,10 @@
 
 /***** TODO
 
-	try and merge all the rodata sections into one
+	try and merge all the rodata.* sections into one
 	make sure all local relocations are at the end
 	make sure local and global relocations are seperate
-	have an option for importing a map to add absolute addresses to matching symbols (for use with KERNEL.XFF)
+	have an option for importing a map file to add absolute addresses to matching symbols (for use with KERNEL.XFF)
 	have an option to NOT strip out unneeded symbols and sections
 	
 	
