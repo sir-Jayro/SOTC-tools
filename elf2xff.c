@@ -297,7 +297,7 @@ MEMERR:;
 		xff.sym_amount++;
 		if(type == STT_SECTION) xff.sec_sym_amount++;
 		else if(ELF32_ST_BIND(eSym->info) == STB_GLOBAL){
-			if(eSym->size == 0) xff.external_sym_amount++;
+			if(eSym->section == 0) xff.external_sym_amount++;
 			int nlen = strlen(strtab+eSym->name);
 			if(nlen == 0) xSym->name = 0;
 			else{
