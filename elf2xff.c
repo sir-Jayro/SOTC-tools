@@ -21,7 +21,7 @@
 	make sure all local relocations are at the end
 	make sure local and global relocations are seperate
 	have an option for importing a map file to add absolute addresses to matching symbols (for use with KERNEL.XFF)
-	have an option to NOT strip out unneeded symbols and sections
+	have an option to keep certain sections -keep "list, of, section, names" and an option to skip certain sections -skip "list, of section, names"
 	
 	
 	make a list of which sections are relocations and if they have local/global relocations
