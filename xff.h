@@ -114,8 +114,8 @@ enum XFF_REL_TYPE {
 	REL_LOW							// The low 16 bytes
 };
 
-#define RelocAddrType( i )		( (i) & 0xff )
-#define RelocAddrSym( i )		( (i) >> 8 )
+#define RelocAddrType( i )	( (i) & 0xff )
+#define RelocAddrSym( i )	( (i) >> 8 )
 #define RelocAddrInfo( t, s )	( ( (s) << 8 ) | ( (t) & 0xff ) )
 
 
